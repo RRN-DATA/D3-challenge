@@ -262,7 +262,7 @@ function dataFunction(mainX,mainY){
 
                     mainX=clickedvalue;
                     mainY=PairAxis;
-                    handeBuild(mainX,mainY);
+                    dataFunction(mainX,mainY);
                 }
         })
         Object.keys(Ylabels).forEach((key)=>{
@@ -271,7 +271,7 @@ function dataFunction(mainX,mainY){
 
                     mainY=clickedvalue;
                     mainX=PairAxis;
-                    handeBuild(mainX,mainY);
+                    dataFunction(mainX,mainY);
                 }
         })
     })
